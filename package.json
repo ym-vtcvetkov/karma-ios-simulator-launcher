@@ -1,0 +1,33 @@
+{
+  "name": "karma-ios-simulator-launcher",
+  "version": "0.0.1",
+  "description": "Launcher of Mobile Safari on MacOS",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "colors": "^1.1.2",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-jasmine": "^0.3.7",
+    "marcosc-async": "^1.0.2"
+  },
+  "scripts": {
+    "test": "karma start --single-run --browsers MobileSafari karma.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoscaceres/karma-ios-simulator-launcher.git"
+  },
+  "keywords": [
+    "karam",
+    "launcher",
+    "ios",
+    "mobilesafari"
+  ],
+  "author": "Marcos Caceres",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/marcoscaceres/karma-ios-simulator-launcher/issues"
+  },
+  "homepage": "https://github.com/marcoscaceres/karma-ios-simulator-launcher#readme"
+}
