@@ -1,6 +1,6 @@
 {
   "name": "karma-ios-simulator-launcher",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Launcher of Mobile Safari on MacOS",
   "main": "index.js",
   "dependencies": {
