@@ -16,7 +16,7 @@ var MobileSafari = function(baseBrowserDecorator) {
     setTimeout(() => {
       const cmd = `xcrun simctl openurl booted ${url}`;
       toExecPromise(cmd).catch(attemptToRecover.bind(this));
-    }, 2000);
+    }, 10000);
   };
 };
 
