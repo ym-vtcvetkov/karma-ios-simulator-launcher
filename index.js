@@ -16,7 +16,7 @@ var MobileSafari = function(baseBrowserDecorator) {
     setTimeout(() => {
       const cmd = `xcrun simctl openurl booted ${url}`;
       toExecPromise(cmd).catch(attemptToRecover.bind(this));
-    }, 10000);
+    }, 2000);
   };
 };
 
@@ -117,7 +117,7 @@ function findBootedDevices(data) {
 MobileSafari.prototype = {
   name: 'MobileSafari',
   DEFAULT_CMD: {
-    darwin: '/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator',
+    darwin: 'echo "The simulator should be preopened"',
   },
   ENV_CMD: null,
 };
